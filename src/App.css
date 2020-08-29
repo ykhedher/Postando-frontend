@@ -36,14 +36,8 @@
   display: flex;
   justify-content: center;
 }
-.item__button{
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-  }
-  
-  /* On mouse-over */
-  .item__button:active {color: #eee;}
+
+/* On mouse-over */
+.item__button:active {
+  color: #eee;
+}
