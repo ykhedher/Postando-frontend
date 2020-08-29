@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;1,500&display=swap');
+
+.header {
+  /* Vector */
+  position: relative;
+  width: 2025.5px;
+  height: 428px;
+  background:#252A3F;
+  color: white;
+  display: inline-block;
+  /* background: linear-gradient(180deg, #de4747 0%, #d9660d 61.68%); */
+}
+.header__image {
+  position: absolute;
+  width: 326px;
+  height: 72px;
+  padding: 15px;
+}
+.main-stop {
+  stop-color: #d9660d;
+}
+.alt-stop {
+  stop-color:#de4747;
+}
+
+
+.item{
+  padding:1rem;
+  margin:0.7rem;
+  border-radius: 2px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 65px;
+/* identical to box height */
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  /* border-bottom: solid #db5c20; */
+
+}
+
+.header .header__navigation{
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 49%; /* Adjust this value to move the positioned div up and down */
+    width: 90%; /* Set the width of the positioned div */
+    
+}
+
+.header__navigation{
+  font-size:100px
+}
+
+/* .header__navigation{
+  position: relative;
+} */

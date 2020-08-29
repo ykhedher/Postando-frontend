@@ -1,0 +1,12 @@
+.box {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background: linear-gradient(180deg, #ed8d42 0%, rgba(235, 61, 61, 0.96) 100%);
+  mix-blend-mode: normal;
+  border-radius: 8px;
+  background-color: #fff;
+  border-radius: 6px;
+  display: block;
+  padding: 1.25rem;
+}
